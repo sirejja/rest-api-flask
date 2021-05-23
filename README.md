@@ -44,8 +44,9 @@ So **CRUD** is on board.
 
 **rest-api.http** file contains all available queries-schemas. I used PyCharm HTTP Tool during development.
 
-There are no exception processing. And it's really bad. There are no classes, only functions. 
+There are no exception and error processing. And it's really bad. So you can get an error 500 on a working method, just because there is no such value in database. To make testing easier, I recommend to use methods GET at first, then POST, PUT, DELETE(sorry..).  
+There are no classes, only functions.
 So it's exactly not pythonic way. I focused on "what to code" instead of "how", and it was a mistake. 
 
 
-Of course, I'll come back and write v0.2 soon.
+Of course I'll come back and write v0.2 soon.

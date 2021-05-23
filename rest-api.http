@@ -1,0 +1,150 @@
+### get all dilers_____________________________________________________
+GET http://127.0.0.1:8000/diler/all
+Accept: application/json
+### get all diler's models by diler's name___________________________
+GET http://127.0.0.1:8000/diler?name=bmw
+Accept: application/json
+### insert diler's name_____________________________________________________
+POST http://127.0.0.1:8000/diler
+Content-Type: application/json
+
+{
+  "name": "lada"
+}
+
+<> 2021-05-23T214027.200.html
+### update diler's name by id_____________________________________________________
+PUT http://127.0.0.1:8000/diler
+Content-Type: application/json
+
+{
+  "id": 5,
+  "name": "sedan"
+}
+### delete diler by id_____________________________________________________
+DELETE http://127.0.0.1:8000/diler
+Content-Type: application/json
+
+{
+  "id": 6
+}
+
+
+
+
+
+### get all models_____________________________________________________
+GET http://127.0.0.1:8000/diler/model/all
+Accept: application/json
+
+<> 2021-05-23T214450.200.json
+### get all models by model's id_____________________________________________________
+GET http://127.0.0.1:8000/diler/model?id=3
+Accept: application/json
+
+<> 2021-05-23T223246.200.json
+<> 2021-05-23T223120.200.json
+<> 2021-05-23T214454.200.json
+### insert model_____________________________________________________
+POST http://127.0.0.1:8000/diler/model
+Content-Type: application/json
+
+{
+  "model_name": "w21222",
+  "price": "500000",
+  "componentry": "extra",
+  "year_release": 2010,
+  "count": 1,
+  "id_diler": 2
+}
+
+<> 2021-05-23T215756.200.json
+<> 2021-05-23T215655.500.html
+<> 2021-05-23T215523.500.html
+<> 2021-05-23T215026.500.html
+### update model by id_____________________________________________________
+PUT http://127.0.0.1:8000/diler/model
+Content-Type: application/json
+
+{
+  "model_name": "w211",
+  "price": "500000",
+  "componentry": "extra",
+  "year_release": 2010,
+  "count": 1,
+  "id_diler": 1,
+  "id_model": 19
+}
+
+<> 2021-05-23T215347.200.json
+### delete model by id_____________________________________________________
+DELETE http://127.0.0.1:8000/diler/model
+Content-Type: application/json
+
+{
+  "id": 20
+}
+
+<> 2021-05-23T215910.200.json
+<> 2021-05-23T215851.500.html
+
+
+
+
+
+
+### get all cars_____________________________________________________
+GET http://127.0.0.1:8000/diler/model/car/all
+Accept: application/json
+
+<> 2021-05-23T220017.200.json
+<> 2021-05-23T214450.200.json
+### get all cars by model's id_____________________________________________________
+GET http://127.0.0.1:8000/diler/model/car?id_model=1
+Accept: application/json
+
+<> 2021-05-23T223738.200.json
+<> 2021-05-23T223712.200.json
+<> 2021-05-23T223541.200.json
+<> 2021-05-23T223355.500.html
+<> 2021-05-23T223105.200.json
+<> 2021-05-23T220031.500.html
+<> 2021-05-23T214454.200.json
+### insert car_____________________________________________________
+POST http://127.0.0.1:8000/diler/model/car
+Content-Type: application/json
+
+{
+  "id_model": 3,
+  "date_purchase": "12.10.2020"
+}
+
+<> 2021-05-23T220512.200.json
+### update car by id_____________________________________________________
+PUT http://127.0.0.1:8000/diler/model/car
+Content-Type: application/json
+
+{
+  "id_car": 21,
+  "id_model": 3,
+  "date_purchase": "12.10.2077"
+}
+
+<> 2021-05-23T221211.200.json
+### delete car by id_____________________________________________________
+DELETE http://127.0.0.1:8000/diler/model/car
+Content-Type: application/json
+
+{
+  "id": 21
+}
+
+<> 2021-05-23T221324.200.json
+<> 2021-05-23T215910.200.json
+<> 2021-05-23T215851.500.html
+
+
+
+
+
+

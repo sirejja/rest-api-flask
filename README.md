@@ -40,9 +40,9 @@ There are 6 **endpoints**:
 * **/diler/model/car/all**
   *  get all cars
   
-So CRUD is on board.  
+So **CRUD** is on board.  
 
-HTTP file contains all available queries-schemas. I used PyCharm HTTP Tool during development.
+**rest-api.http** file contains all available queries-schemas. I used PyCharm HTTP Tool during development.
 
 There are no exception processing. And it's really bad. There are no classes, only functions. 
 So it's exactly not pythonic way. I focused on "what to code" instead of "how", and it was a mistake. 

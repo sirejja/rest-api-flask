@@ -14,7 +14,9 @@ There are three tables:
 * model, 
 * car.
 
-You can explore DB diagram in **main.png**  
+You can explore DB diagram in **main.png** below
+
+![Image alt](https://github.com/sirejja/RESTful_API_Flask/blob/6c309a9ed6b6b85ec0d054e71821aec7f75c70f1/main.png)
 
 There are 6 **endpoints**: 
 * **/diler**

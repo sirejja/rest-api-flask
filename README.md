@@ -49,4 +49,3 @@ There are no classes, only functions.
 So it's exactly not pythonic way. I focused on "what to code" instead of "how", and it was a mistake. 
 
 
-Of course I'll come back and write v0.2 soon.
